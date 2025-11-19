@@ -3,7 +3,9 @@
 > vite
 
 
-  VITE v5.4.20  ready in 262 ms
+  VITE v5.4.20  ready in 285 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.6.210:3000/
+1:34:24 AM [vite] ✨ new dependencies optimized: clsx
+1:34:24 AM [vite] ✨ optimized dependencies changed. reloading

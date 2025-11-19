@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Check, ArrowRight } from 'lucide-react'
-import PremiumAnimation from './PremiumAnimation'
+import ModernWorld from './ModernWorld'
 
 export default function Hero() {
   return (
@@ -100,9 +100,9 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* Premium animated visual */}
+          {/* Right visual: Modern World (replaces moving card) */}
           <div className="relative h-[420px] md:h-[540px] lg:h-[640px]">
-            <PremiumAnimation className="h-full" />
+            <ModernWorld className="h-full" />
           </div>
         </div>
       </div>
