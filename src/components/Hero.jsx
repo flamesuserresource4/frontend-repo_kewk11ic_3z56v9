@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import Spline from '@splinetool/react-spline'
+import PremiumAnimation from './PremiumAnimation'
 
 export default function Hero() {
   return (
@@ -76,14 +77,13 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* 3D Spline */}
+          {/* Premium animated visual replacing static image */}
           <div className="relative h-[420px] md:h-[540px] lg:h-[640px]">
-            <div className="absolute inset-0 rounded-3xl border border-white/10 bg-gradient-to-b from-white/5 to-transparent" />
-            <div className="absolute inset-0 rounded-3xl overflow-hidden">
+            <PremiumAnimation className="h-full" />
+            {/* Optional: if you still want Spline as a layer, uncomment below */}
+            {/* <div className="absolute inset-0 rounded-3xl overflow-hidden pointer-events-none">
               <Spline scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode" style={{ width: '100%', height: '100%' }} />
-              {/* Gradient overlay to blend with background - won't block interaction */}
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
