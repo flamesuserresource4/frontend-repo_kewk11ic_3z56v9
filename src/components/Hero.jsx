@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Check, ArrowRight } from 'lucide-react'
-import ModernWorld from './ModernWorld'
+import AiNeural from './AiNeural'
 
 export default function Hero() {
   return (
@@ -100,9 +100,9 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* Right visual: Modern World (replaces moving card) */}
+          {/* Right visual: AI neural network animation (clean, no card) */}
           <div className="relative h-[420px] md:h-[540px] lg:h-[640px]">
-            <ModernWorld className="h-full" />
+            <AiNeural className="h-full" />
           </div>
         </div>
       </div>
